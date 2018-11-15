@@ -1,0 +1,22 @@
+{
+  "name": "@firstbyte/root",
+  "private": true,
+  "license" : "GPL-3.0",
+  "author": "D.C. Thompson-Yvetot",
+  "homepage": "https://quasar-framework.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://quasarframework/quasar-byteball-starter-kit.git"
+  },
+  "scripts": {
+    "precommit": "lerna run --concurrency 1 --stream precommit",
+    "lint:fix": "lerna run --no-bail lint:fix",
+    "dev": "lerna run dev --stream",
+    "test": "lerna run test --no-bail",
+    "test:jest": "lerna run test:jest --no-bail"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lerna": "^3.4.3"
+  }
+}

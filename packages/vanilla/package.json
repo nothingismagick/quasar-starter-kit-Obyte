@@ -1,0 +1,33 @@
+{
+  "name": "@firstbyte/vanilla",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A quasar-based starter kit for rapidly creating full featured byteball applications.",
+  "keywords": [
+    "quasar",
+    "byteball",
+    "vuejs",
+    "firstbyte"
+  ],
+  "author": "Daniel Thompson-Yvetot",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quasarframework/quasar-byteball-starter-kit.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/quasarframework/quasar-byteball-starter-kit/issues"
+  },
+  "devDependencies": {
+    "vue-cli": "^2.8.1"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0"
+  }
+}
