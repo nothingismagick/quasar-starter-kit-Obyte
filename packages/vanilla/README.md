@@ -16,7 +16,7 @@ $ npm install -g quasar-cli
 $ npm install -g vue-cli
 
 # generate a project folder with this template
-$ quasar init @quasar/starters-firstbyte-vanilla my-project 
+$ quasar init @first-byte/vanilla my-project 
 
 $ cd my-project
 $ yarn install
