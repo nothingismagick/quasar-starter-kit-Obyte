@@ -1,5 +1,5 @@
 {
-  "name": "@first-byte/vanilla",
+  "name": "@first-byte/pure",
   "version": "1.0.0",
   "license": "MIT",
   "description": "A quasar-based starter kit for rapidly creating full featured byteball applications.",
