@@ -64,3 +64,5 @@ lerna bootstrap
 
 ## License
 MIT - Copyright 2018 Daniel Thompson-Yvetot and Razvan Stoenescu
+
+FirstByte Logo & Wordmark - CC-ND-NC Daniel Thompson-Yvetot

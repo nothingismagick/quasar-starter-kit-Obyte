@@ -18,13 +18,16 @@
     "url": "git+https://github.com/quasarframework/quasar-byteball-starter-kit.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test:unit": "jest",
+    "docs:build": "documentation build -o docs -f html",
+    "docs:serve": "documentation serve docs"
   },
   "bugs": {
     "url": "https://github.com/quasarframework/quasar-byteball-starter-kit/issues"
   },
   "devDependencies": {
-    "vue-cli": "^2.8.1"
+    "vue-cli": "^2.8.1",
+    "documentation": "^8.1.2"
   },
   "engines": {
     "node": ">= 8.9.0",

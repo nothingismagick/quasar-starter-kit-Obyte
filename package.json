@@ -1,7 +1,7 @@
 {
   "name": "@first-byte/root",
   "private": true,
-  "license" : "GPL-3.0",
+  "license": "GPL-3.0",
   "author": "D.C. Thompson-Yvetot",
   "homepage": "https://quasar-framework.org",
   "repository": {
@@ -13,9 +13,12 @@
     "lint:fix": "lerna run --no-bail lint:fix",
     "dev": "lerna run dev --stream",
     "test": "lerna run test --no-bail",
-    "test:jest": "lerna run test:jest --no-bail"
+    "test:jest": "lerna run test:jest --no-bail",
+    "docs:build": "documentation build --config documentation.yml -o docs -f html",
+    "docs:serve": "documentation serve docs"
   },
   "devDependencies": {
+    "documentation": "^8.1.2",
     "husky": "^0.14.3",
     "lerna": "^3.4.3"
   }
