@@ -1,4 +1,4 @@
-![logo](/documentation/art/firstByte.png)
+![logo](/docs/art/firstByte.png)
 
 
 ##### An opinionated starter kit for byteball, with quasar.
