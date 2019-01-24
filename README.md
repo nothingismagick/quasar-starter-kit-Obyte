@@ -1,14 +1,14 @@
 ![logo](/docs/art/firstByte.png)
 
 
-##### An opinionated starter kit for byteball, with quasar.
+##### An opinionated starter kit for Obyte, with Quasar.
 
 # WIP 
 Status: scaffolding, not ready for use
 
 ## Introduction
 
-Mere inspiration make not the app alone - as they with great ideas may not necessarily great developers be. Especially within the domain of applied cryptography and virtual currency, novice’s mistakes are more likely than beginner’s luck. FirstByte minimizes these risks by enabling those with moderate skill (or a willingness to learn) to produce shippable best-practice apps for all major computing platforms from one code base and in record time. Tailored to meet the needs of both Byteball enthusiasts and professional developers, the core of FirstByte is built on the Quasar Framework and byteball.js - and is distributed under the permissive MIT license.
+Mere inspiration make not the app alone - as they with great ideas may not necessarily great developers be. Especially within the domain of applied cryptography and virtual currency, novice’s mistakes are more likely than beginner’s luck. FirstByte minimizes these risks by enabling those with moderate skill (or a willingness to learn) to produce shippable best-practice apps for all major computing platforms from one code base and in record time. Tailored to meet the needs of both Obyte enthusiasts and professional developers, the core of FirstByte is built on the Quasar Framework and obyte.js - and is distributed under the permissive MIT license.
 
 ### Deliverables
 Inheritance is a powerful pattern, and this project will leverage it. FirstByte in and of itself is a lerna-based monorepo hosted at a public git repository where all of the development and CI pipelines are managed. When it is viable, it will be available as a WIP via NPM and YARN as well as from IPFS and DAT. 
@@ -27,7 +27,7 @@ The Pure flavour will be a minimal setup that extends the basic Quasar core with
 - ESLint extended with A11Y “lifting”
 - Gitlab pipelines and dockerfiles
 - GraphQL / Apollo / Prisma API and DB
-- the Byteball.js library
+- the obyte.js library
 - integration with now.js for immediate project delivery
 - automated documentation of APIs and functions
 - robust system configuration and secret management using ENV variables
@@ -35,7 +35,7 @@ The Pure flavour will be a minimal setup that extends the basic Quasar core with
 - i18n language translation engine rigged for use with content, not just interface
 
 ### Documentation
-In addition to that which is provided by Byteball, Quasar, vue.js and byteball.js, the FirstByte pure starter will describe in detail every component, plugin and script. The factors that make each flavour distinct will be described in minutia. Partially generated from JSDoc comments, and partially handwritten by the authors, the approach to be maintained is a “living document”, most likely to be built with Storybook.js. Further, the entire documentation will be i18n based and translated using the Utopian.io / Davinci service.
+In addition to that which is provided by Obyte, Quasar, vue.js and obyte.js, the FirstByte pure starter will describe in detail every component, plugin and script. The factors that make each flavour distinct will be described in minutia. Partially generated from JSDoc comments, and partially handwritten by the authors, the approach to be maintained is a “living document”, most likely to be built with Storybook.js. Further, the entire documentation will be i18n based and translated using the Utopian.io / Davinci service.
 
 ## Development
 This project uses yarn, a modern version of node (10 at the time of this writing) and lerna for monorepo management. It is linted with ESLint and designed for Quasar 1.0 in mind, although it may be possible to use with legacy Quasar. 
