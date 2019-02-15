@@ -20,6 +20,6 @@
   "devDependencies": {
     "documentation": "^8.1.2",
     "husky": "^0.14.3",
-    "lerna": "^3.4.3"
+    "lerna": "^3.13.0"
   }
 }
