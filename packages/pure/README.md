@@ -1,25 +1,22 @@
 
 ![Quasar Framework logo](https://cdn.rawgit.com/quasarframework/quasar-art/863c14bd/dist/svg/quasar-logo-full-inline.svg)
 
-# @firstbyte/vanilla [WIP]
-> Quasar Framework Starter Kit for Byteball Projects
+# @firstbyte/pure [WIP]
+> Quasar Framework Starter Kit for OByte Projects
 
 ## Usage
 
-First, make sure you have Node >= 8 and NPM >= 5.
-
 ``` bash
-# install Quasar CLI beta version:
-$ npm install -g quasar-cli
-
-# install Vue CLI if you don't have it already
-$ npm install -g vue-cli
+# install Quasar CLI version:
+$ npm install -g @quasar/cli
 
 # generate a project folder with this template
-$ quasar init @first-byte/vanilla my-project 
+# from github
+$ quasar create obyte-app --kit quasarframework/quasar-starter-kit-Obyte/packages/pure 
+# from file
+$ quasar create obyte-app --kit ../quasar-starter-kit-Obyte/packages/pure 
 
-$ cd my-project
-$ yarn install
+$ cd obyte-app
 
 # start developing your app
 $ quasar dev

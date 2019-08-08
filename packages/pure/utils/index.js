@@ -3,7 +3,7 @@ const
   fs = require('fs'),
   spawn = require('child_process').spawn
 
-const lintStyles = ['standard', 'airbnb']
+const lintStyles = ['standard', 'airbnb', 'prettier']
 
 /**
  * Sorts dependencies in package.json alphabetically.
@@ -72,8 +72,8 @@ exports.runLintFix = function runLintFix(cwd, data, color) {
  */
 function lintMsg(data) {
   return !data.autoInstall &&
-    data.lint &&
-    lintStyles.indexOf(data.lintConfig) !== -1
+  data.lint &&
+  lintStyles.indexOf(data.lintConfig) !== -1
     ? 'npm run lint -- --fix (or for yarn: yarn run lint --fix)\n  '
     : ''
 }
@@ -85,25 +85,20 @@ function lintMsg(data) {
 exports.printMessage = function printMessage(data, { green, yellow }) {
   const message = `
  ${green('[*] Quasar Project initialization finished!')}
-
 To get started:
-
   ${yellow(
     `${data.inPlace ? '' : `cd ${data.destDirName}\n  `}${installMsg(
       data
     )}${lintMsg(data)}quasar dev`
   )}
-
-Documentation can be found at: https://quasar-framework.org
-
+Documentation can be found at: https://quasar.dev
 Quasar is relying on donations to evolve. We'd be very grateful if you can
-take a look at: https://www.patreon.com/quasarframework
+read our manifest on "Why donations are important": https://quasar.dev/why-donate
+Donation campaign: https://donate.quasar.dev
 Any amount is very welcomed.
-If invoices are required, please first contact razvan.stoenescu@gmail.com
-
+If invoices are required, please first contact razvan@quasar.dev
 Please give us a star on Github if you appreciate our work:
 https://github.com/quasarframework/quasar
-
 Enjoy! - Quasar Team
 `
   console.log(message)
@@ -159,9 +154,9 @@ function sortObject(object) {
   // Based on https://github.com/yarnpkg/yarn/blob/v1.3.2/src/config.js#L79-L85
   const sortedObject = {}
   Object.keys(object)
-    .sort()
-    .forEach(item => {
-      sortedObject[item] = object[item]
-    })
+  .sort()
+  .forEach(item => {
+    sortedObject[item] = object[item]
+  })
   return sortedObject
 }

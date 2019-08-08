@@ -13,6 +13,7 @@
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
   },
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/quasarframework/quasar-byteball-starter-kit.git"

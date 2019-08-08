@@ -1,9 +1,9 @@
 {
   "name": "@first-byte/root",
   "private": true,
-  "license": "GPL-3.0",
+  "license": "MIT",
   "author": "D.C. Thompson-Yvetot",
-  "homepage": "https://quasar-framework.org",
+  "homepage": "https://quasar.dev",
   "repository": {
     "type": "git",
     "url": "git+https://quasarframework/quasar-byteball-starter-kit.git"
